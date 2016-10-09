@@ -28,9 +28,13 @@ Allocated Storage: 5 GB
 DB Instance Identifier: instanceid01  
 Master Username: masteru  
 Master Password: masterpass  
+Publicly Accessible: Yes
 
 Advanged Settings:  
 Database Name: dbname01
+
+!!! Make sure that the security group allows your IP (or all IPs - 0.0.0.0/0 - be careful not very secure) as the source for inbound traffic to TCP 5432
+
 
 ### Prices
 
